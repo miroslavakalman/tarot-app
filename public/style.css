@@ -1,0 +1,171 @@
+@font-face {
+    font-family: 'Carlo';
+    src: url('../fonts/Carlo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Carlo';
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh; 
+    margin: 0; 
+}
+
+.sparkling {
+    width: 399px;
+    height: 336px;
+    @media screen and (max-width:440px){
+        max-width: 300px;
+    }
+}
+
+.main-text{
+    font-family: 'Carlo';
+    font-weight: 400;
+    font-size: 120px;
+    text-align: center;
+    color: #620000;
+    margin-top: 60px;
+    @media screen and (max-width:550px){
+        font-size: 75px;
+        margin-top: 20px;
+    }
+    @media screen and (max-width:340px){
+        font-size: 55px;
+        margin-top: 20px;
+    }
+}
+
+.sec-text{
+    margin-top: -120px;
+    font-weight: 400;
+    font-size: 32px;
+    color: #4e0000;
+    @media screen and (max-width:550px){
+        margin-top: -80px;
+        font-size: 20px;
+    }
+    @media screen and (max-width:340px){
+        font-size: 16px;
+        margin-top: -60px;
+    }
+}
+
+.second-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.second-block h1, .result h1{
+    font-family:'Carlo';
+    font-weight: 400;
+    font-size: 64px;
+    color: #620000;
+    margin-top: 55px;
+    text-align: center;
+    @media screen and (max-width:550px){
+        font-size: 48px;
+    }
+}
+
+.second-block p{
+    font-family: 'Neucha';
+    font-weight: 400;
+    font-size: 32px;
+    color: #620000;
+    text-align: center;
+    margin-top: -45px;
+    @media screen and (max-width:550px){
+        font-size: 22px;
+        margin-top: -20px;
+    }
+}
+
+.second-block button{
+    width: 427px;
+    height: 67px;
+    background-color: #620000;
+    border: none;
+    outline: none;
+    font-family: 'Neucha';
+    font-weight: 400;
+    font-size: 32px;
+    color: #ba8484;
+    @media screen and (max-width:550px){
+        font-size: 24px;
+        width: 367px;
+        height: 55px;
+    }
+    @media screen and (max-width:375px){
+        width: 100%;
+    }
+}
+
+
+
+
+
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+}
+
+.card img {
+    max-width: 150px;
+    max-height: 250px;
+    height: auto;
+    @media screen and (max-width:440px){
+        max-width: 125px;
+    }
+    @media screen and (max-width:387px){
+        max-width: 100px;
+    }
+    @media screen and (max-width:330px){
+        max-width: 80px;
+    }
+}
+
+.description {
+   margin-top: -60px;
+}
+
+.description h2{
+    text-align: center;
+    font-family: 'Neucha';
+    font-weight: 400;
+    font-size: 32px;
+    color: #620000;
+    @media screen and (max-width:440px){
+        font-size: 24px;
+    }
+}
+
+.description p{
+    text-align: center;
+    font-family: 'Neucha';
+    font-weight: 400;
+    font-size: 24px;
+    color: #620000;
+    @media screen and (max-width:440px){
+        font-size: 20px;
+    }
+}
+
+
+hr{
+    margin-top: 70px;
+}
